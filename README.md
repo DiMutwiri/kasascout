@@ -1,0 +1,2 @@
+# CasaScout
+MERN REAL ESTATE + TAILWIND CSS
