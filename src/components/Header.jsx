@@ -1,5 +1,5 @@
-import { FaSearch } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
+import { FaSearch } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
@@ -7,12 +7,10 @@ export default function Header() {
 
       <div className='flex justify-between items-center max-w-6xl mx-auto'>
 
-        <Link to='/'> {/* Link to the home page */}
-
+        <Link to='/'> {/* Link >> leads to the home page onclick*/}
           <h1 className='font-bold text-sm sm:text-xl '>
             <span className='text-slate-800'>CasaScout</span>
           </h1>
-
         </Link>
 
         <form className='bg-slate-100 p-3 flex  item-centre rounded-lg  '>
@@ -21,7 +19,6 @@ export default function Header() {
         </form>
 
         <ul className='flex gap-4'>
-
           <Link to='/'> {/* Link to the home page */}
            <li className='hidden sm:inline text-slate-700 hover:underline '>Home</li> 
           </Link>
@@ -32,8 +29,7 @@ export default function Header() {
 
           <Link to='/sign-in'> {/* Link to the sign-in page */}
             <li className='sm:inline text-slate-700 hover:underline '>Sign In</li>
-          </Link>
-          
+          </Link>          
         </ul>
 
       </div>
